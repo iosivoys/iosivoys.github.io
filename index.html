@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A sample website hosted on Google App Engine">
+  <title>Income Distribution </title>
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body class="body">
+  <header>
+    <a href="/"><img src="images/save-money.png" alt="Logo"></a>
+    <h1>Система распределения доходов</h1>
+  </header>
+  <main class="main">
+    <form id="formEarnings" class="row g-3 borderB">
+      <div class="col-7">
+        <input type="number" class="form-control inpNum" id="inputPassword2" placeholder="Ваш заработок">
+      </div>
+      <div class="col-5">
+        <button type="submit" class="btn btn-primary mb-3 w-100">Распределить</button>
+      </div>
+    </form>
+
+    <div class="results">
+
+      <div class="resultBlock borderB">
+        <div class="blocks blocks-first">
+
+          <div class="arrow-1">
+          </div>
+          <div class="arrow-2">
+          </div>
+          <div class="arrow-3">
+          </div>
+          <div class="arrow-4">
+          </div>
+          
+          <div class="block block-income">
+            <h6 class="block__title">Месячная зарплата</h3>
+            <p class="numOf income"></p>
+          </div>
+          
+          <div class="block block-One">
+            <h6 class="block__title">10% на себя</h3>
+            <p class="numOf numOf-1"></p>
+          </div>
+          <div class="block block-Two">
+            <h6 class="block__title">10% на будущее</h3>
+            <p class="numOf numOf-2"></p>
+          </div>
+          <div class="block block-Three">
+            <h6 class="block__title">10% родителям</h3>
+            <p class="numOf numOf-3"></p>
+          </div>
+          <div class="block block-Four">
+            <h6 class="block__title">2.5% <br> благотворительность</h3>
+            <p class="numOf numOf-4"></p>
+          </div>
+  
+        </div> <!--blocks-first-->
+        
+      </div><!--resultBlock-->
+
+      <div class="resultBlock borderB">
+        <div class="blocks blocks-second">
+
+          <div class="arrow-5">
+          </div>
+          <div class="arrow-6">
+          </div>
+          <div class="arrow-7">
+          </div>
+          <div class="arrow-8">
+          </div>
+          
+          <div class="block">
+            <h6 class="block__title">67,5% Оставшаяся сумма</h3>
+            <p class="numOf numOf-rest"></p>
+          </div>
+          
+          <div class="block block-55">
+            <h6 class="block__title">55%</h3>
+            <p class="numOf numOf-5"></p>
+          </div>
+          <div class="block block-Five">
+            <h6 class="block__title">80% капитал</h3>
+              <p class="numOf numOf-6"></p>
+          </div>
+          <div class="block block-Six">
+            <h6 class="block__title">45% жить</h3>
+              <p class="numOf numOf-7"></p>
+          </div>
+          <div class="block block-Seven">
+            <h6 class="block__title">20% мечта</h3>
+            <p class="numOf numOf-8"></p>
+          </div>
+  
+        </div><!--blocks-second-->
+      </div><!--resultBlock-->
+
+      <div class="resultBlock borderB">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Куда</th>
+              <th scope="col">В процентах</th>
+              <th scope="col">Сколько</th>
+            </tr>
+          </thead>
+          <tbody class="listTbody">
+            
+            <tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="resultBlock borderB">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+        </div>
+      </div>
+
+    </div> <!--results-->
+
+
+  </main>
+  <footer>
+    <a href="https://plus.google.com/share?url=http%3A%2F%2Fgaesamplesite.appspot.com%2F" target="_blank" title="Share on Google+">
+      <img src="images/google+.png" alt="Google+">
+    </a>
+    <a href="https://twitter.com/share?text=GAE%20Sample%20Site&amp;url=http%3A%2F%2Fgaesamplesite.appspot.com%2F" target="_blank" title="Share on Twitter">
+      <img src="images/twitter.png" alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com/dialog/share?app_id=168896036831388&amp;href=http%3A%2F%2Fgaesamplesite.appspot.com%2F" target="_blank" title="Share on Facebook">
+      <img src="images/facebook.png" alt="Facebook">
+    </a>
+  </footer>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
