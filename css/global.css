@@ -2,17 +2,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-.body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-body > * {
-  padding: 16px;
+.wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 header {
@@ -35,6 +30,7 @@ header h1 {
 }
 
 .main {
+  padding-bottom: 80px;
   height: 100%;
   font: 13px Arial;
   color: #333;
@@ -49,6 +45,11 @@ footer {
   display: flex;
   align-items: center;
   background: #333;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 
 [title$="Twitter"] {
@@ -82,6 +83,9 @@ span a {
 .resultBlock {
   width: 350px;
   margin: 10px;
+}
+.resultBlock-table {
+  width: auto;
 }
 
 .results {
@@ -229,3 +233,11 @@ p.numOf {
   top: 155px;
   left: 10px;
 }
+
+
+@media (min-width: 1470px) {
+  .borderB {
+    border: none;
+  }
+}
+
