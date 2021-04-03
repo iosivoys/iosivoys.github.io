@@ -14,43 +14,43 @@ let arr = [
     {
         forwhat: 'На себя',
         percent: 10,
-        disc: `Хобби, увлечения, отдых... (Рандомный текст)`,
+        disc: `Self-development. Саморазвитие, хобби, увлечения`,
         h2ID: 'One'
     },
     {
         forwhat: 'На будущее',
         percent: 10,
-        disc: `...(Рандомный текст)`,
+        disc: `A reserve for attracting even more money, which should not be touched at all. Запас для привлечение еще большего количества денег, которое вообще нельзя трогать.`,
         h2ID: 'Two'
     },
     {
         forwhat: 'Родителям',
         percent: 10,
-        disc: `Родителям каждый месяц`,
+        disc: `For Parents every month. Родителям каждый месяц.`,
         h2ID: 'Three'
     },
     {
         forwhat: 'Благотворительность',
         percent: 2.5,
-        disc: `Пожертвовать от чистого сердца`,
+        disc: `Donate from a pure heart to those in need. Пожертвовать от чистого сердца нуждающимся.`,
         h2ID: 'Four'
     },
     {
         forwhat: 'Капитал',
         percent: 29.7,
-        disc: `...(Рандомный текст)`,
+        disc: `Деньги, которые нужно инвестировать, сохранить и приумножить или использовать на бизнес в будущем. Money that needs to be invested, saved and increased or used for business in the future.`,
         h2ID: 'Five'
     },
     {
         forwhat: 'Мечта',
         percent: 7.425,
-        disc: `Мечты бывают разные. Некоторые из них можно купить, но не всегда хватает денег. Однако накопить можно при любом уровне доходов, даже если сейчас сумма кажется нереальной. `,
+        disc: `Savings for a dream. You can't touch it until it accumulates. Накопления на мечту. Трогать нельзя пока не накопится.`,
         h2ID: 'Six'
     },
     {
         forwhat: 'Жить',
         percent: 30.375,
-        disc: `Комм.услуги, Интернет, Продукты, Телефон, Одежда, Транспорт, Дети`,
+        disc: `Everyday needs. Повседневные нужды. Комм.услуги, Интернет, Продукты, Телефон, Одежда, Транспорт, Дети, Гаджеты, Электроника`,
         h2ID: 'Seven'
     },
 ];
